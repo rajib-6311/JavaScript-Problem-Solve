@@ -53,11 +53,6 @@ function deleteInvalids(array) {
 // console.log(deleteInvalids([1 , 2 , -3 ] ));
 // console.log(deleteInvalids({num: [ 1 , 2 , 3 ]} ));
 
-
-
-
-
-
 // Problem - 4
 function password(objects) {
     if (!objects.hasOwnProperty('name') || !objects.hasOwnProperty('birthYear') || !objects.hasOwnProperty('siteName')) {
